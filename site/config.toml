@@ -41,7 +41,7 @@ paginate = 10
 
 	[params.about]
 		hide  = false
-		title = "Ipsum lorem dolor aliquam ante commodo magna sed accumsan arcu neque."
+		title = "Photographer"
 		content = "Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia."
 
 
@@ -54,37 +54,37 @@ paginate = 10
 		[[params.portfolio.gallery]]
 			image = "fulls/01.jpg"
 			thumb = "thumbs/01.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			title = "Butternut Squash Kale Salad"
+			description = "Close ups to bring out the details"
 
 		[[params.portfolio.gallery]]
 			image = "fulls/02.jpg"
 			thumb = "thumbs/02.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			title = "Maple Pecan Cinnamon Rolls"
+			description = "Light and airy"
 
 		[[params.portfolio.gallery]]
 			image = "fulls/03.jpg"
 			thumb = "thumbs/03.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			title = "Homemade Irish Cream"
+			description = "Dynamic movement"
 
 		[[params.portfolio.gallery]]
 			image = "fulls/04.jpg"
 			thumb = "thumbs/04.jpg"
-			title = "Lorem ipsum dolor."
+			title = "Charcuterie Board"
 			description = "Lorem ipsum dolor sit amet."
 
 		[[params.portfolio.gallery]]
 			image = "fulls/05.jpg"
 			thumb = "thumbs/05.jpg"
-			title = "Lorem ipsum dolor."
+			title = "Chocolate Hazelnut Tart"
 			description = "Lorem ipsum dolor sit amet."
 
 		[[params.portfolio.gallery]]
 			image = "fulls/06.jpg"
 			thumb = "thumbs/06.jpg"
-			title = "Lorem ipsum dolor."
+			title = "Salted Honey Pie"
 			description = "Lorem ipsum dolor sit amet."
 
 	[params.recentposts]
@@ -93,17 +93,17 @@ paginate = 10
 
 	[params.contact]
 		hide  = false
-		title = "Get In Touch"
+		title = "Let's work together!"
 		content = "Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor."
 
 		# This can be exact coordinates or a searchable address in google maps
-		gmaps_address = "39.7889055,-120.5443524"
+		gmaps_address = "43.693505,-79.308399"
 		address = [
-			"1234 Somewhere Rd.",
-			"Nashville, TN 00000",
-			"United States"
+			"25 Crewe Ave",
+			"Toronto, ON M4C2H9",
+			"Canada"
 		]
-		phone = "000-000-0000"
+		phone = "‭647-692-7338"
 
 		# Since this template is static, the contact form uses www.formspree.io as a
 		# proxy. The form makes a POST request to their servers to send the actual
