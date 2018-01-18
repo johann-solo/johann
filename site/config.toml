@@ -12,13 +12,13 @@ paginate = 10
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "Johann Headley"
-	description = "Hi, I'm Johann. I'm a photographer who specialises in food photography"
+	description = "Hi, I'm Johann Headley. I'm a photographer who specialises in food photography"
 
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
 
 	# Add read time estimates in the format "X min read"
-	show_read_time = false
+	show_read_time = true
 
 	# Add custom assets with their paths relative to the static folder
 	custom_js   = []
@@ -29,20 +29,20 @@ paginate = 10
 		# Replace the avatar with a picture of your own under static/images
 		avatar = "avatar.jpg"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "I'm **Johann Headley**. I'm a photographer and web developer who specialises in food photography and making blogs. Let's work together!"
+		bio = "Hello, I'm ***JOHANN HEADLEY***. I'm a **photographer** and **web developer** who specialises in food photography and making blogs. Let's work together!"
 		# The icons will be shown if you enter your username
 		twitter = "johannheadley"
 		instagram = "__om__photography"
 
 		copyright = [
-			"&copy; Johann Headley"
+			"Johann Headley"
 		]
 
 
 	[params.about]
 		hide  = false
-		title = "Photographer"
-		content = "Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia."
+		title = "Creative, Inquistive, Caribbean...Photographer"
+		content = "My foray in the digital world intially started with web development. I always loved the visual medium – especially photography but never considered that as a career to channel my passions. After working on my wife's blog, <a href='https://www.oliveandmango.com/'>Olive & Mango</a> I really got an opportunity to dive right in. Over the years I have had been able to push myself to the limits as I tackled new obstacles, coming out stronger every time. It's not often you get to do the thing you love and in this respect I'm living a dream."
 
 
 	[params.portfolio]
@@ -85,6 +85,18 @@ paginate = 10
 			image = "fulls/06.jpg"
 			thumb = "thumbs/06.jpg"
 			title = "Salted Honey Pie"
+			description = "Lorem ipsum dolor sit amet."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/07.jpg"
+			thumb = "thumbs/07.jpg"
+			title = "Pear Frangipani Tart"
+			description = "Lorem ipsum dolor sit amet."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/08.jpg"
+			thumb = "thumbs/08.jpg"
+			title = "Apple Butter Spice Cake"
 			description = "Lorem ipsum dolor sit amet."
 
 	[params.recentposts]

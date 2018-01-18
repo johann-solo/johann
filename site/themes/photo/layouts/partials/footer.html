@@ -1,8 +1,8 @@
 {{ "<!-- Footer -->" | safeHTML }}
 <footer id="footer">
 	<ul class="icons">
-		{{ with .Site.Params.sidebar.googleplus }}
-		<li><a href="//plus.google.com/+{{ . }}" target="_blank" class="icon fa-google-plus"><span class="label">Google Plus</span></a></li>
+		{{ with .Site.Params.sidebar.instagram }}
+		<li><a href="//instagram.com/{{ . }}" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 		{{ end }}
 		{{ with .Site.Params.sidebar.facebook }}
         <li><a href="//facebook.com/{{ . }}" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
@@ -34,6 +34,7 @@
 	</ul>
 
 	<ul class="copyright">
+		Copyright &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script>
 		{{ range .Site.Params.sidebar.copyright }}
 		<li>{{ . | markdownify }}</li>
 		{{ end }}
