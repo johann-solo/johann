@@ -1,10 +1,15 @@
 {{ define "main" }}
-	{{ if not .Site.Params.about.hide }}
-		{{ partial "about" . }}
+
+	{{ if not .Site.Params.intro.hide }}
+		{{ partial "intro" . }}
 	{{ end }}
 
 	{{ if not .Site.Params.portfolio.hide }}
 		{{ partial "portfolio" . }}
+	{{ end }}
+
+	{{ if not .Site.Params.about.hide }}
+	{{ partial "about" . }}
 	{{ end }}
 
 	{{ if not .Site.Params.recentposts.hide }}

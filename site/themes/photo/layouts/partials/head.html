@@ -17,11 +17,22 @@
 		{{ if not .Site.Params.OpenGraph.hide }}
 		<meta name="og:site_name" content="{{ .Site.Title }}">
 		<meta name="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+		<meta name="og:description" content="{{ .Site.Params.description }}">
 		<meta name="og:url" content="{{ .Permalink }}">
 		{{ if not .Site.Params.avatar.hide }}
 		<meta name="og:image" content="{{ .Site.BaseURL }}images/{{ .Site.Params.sidebar.avatar }}">
 		{{ end }}
 		{{ end }}
+
+		<meta name="twitter:card" content="{{ $.Site.Params.description }}" />
+		<meta name="twitter:site" content="@johannheadley" />
+
+		<!-- Favicons -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico/apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="/favicon.ico/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="/favicon.ico/favicon-16x16.png" sizes="16x16">
+		<link rel="manifest" href="/favicon.ico/manifest.json">
+		<link rel="mask-icon" href="/favicon.ico/safari-pinned-tab.svg" color="black">
 
 		{{ .Hugo.Generator }}
 

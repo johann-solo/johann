@@ -1,0 +1,6 @@
+<section>
+	<div class="">
+		{{ with .Site.Params.intro.title }}<h1>{{ . | markdownify }}</h1>{{ end }}
+	</div>
+	{{ with .Site.Params.intro.content }}<p>{{ . | markdownify }}</p>{{ end }}
+</section>
