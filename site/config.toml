@@ -2,7 +2,7 @@ baseurl = "/"
 languageCode = "en-us"
 title = "Johann Headley Photography"
 theme = "photo"
-disqusShortname = "Johann"
+disqusShortname = "@disqus_Ln5VQEG0Dl"
 # Enable Google Analytics by inserting your tracking code
 googleAnalytics = ""
 # Define how many posts should appear on a site
