@@ -4,7 +4,7 @@ title = "Johann Headley Photography"
 theme = "photo"
 disqusShortname = "johannheadley-com"
 # Enable Google Analytics by inserting your tracking code
-googleAnalytics = ""
+googleAnalytics = "UA-44681567-1"
 # Define how many posts should appear on a site
 paginate = 10
 
