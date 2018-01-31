@@ -47,7 +47,7 @@ paginate = 10
 	[params.about]
 		hide  = false
 		title = "The accidental photographer"
-		content = "My foray in the digital world intially started with web development. I always loved the visual medium – especially photography but never considered that as a career to channel my passions. After working on my wife's blog, <a href='https://www.oliveandmango.com/'>Olive & Mango</a> I really got an opportunity to dive right in. Over the years I have had been able to push myself to the limits as I tackled new obstacles, coming out stronger every time. It's not often you get to do the thing you love and in this respect I'm living a dream."
+		content = "My foray in the digital world intially started with web development. I always loved the visual medium – especially photography but never considered that as a career to channel my passions. After working on my wife's blog, <a href='https://www.oliveandmango.com/'>Olive & Mango</a> I really got an opportunity to dive right in. Over the years I have been able to push myself to the limits as I tackled new obstacles, coming out stronger every time. It's not often you get to do the thing you love and in this respect I'm living a dream."
 
 
 	[params.portfolio]
