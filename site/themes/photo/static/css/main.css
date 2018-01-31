@@ -3164,3 +3164,17 @@ img {
 blockquote p {
 	margin: 0;
 }
+
+.cta_btn {
+	border-bottom: none;
+	font-size: 1.5em;
+  border: 2px solid #49bf9d;
+  padding: 5px;
+	border-radius: 0.35em;
+}
+
+.cta_btn:hover {
+	border-bottom-color: #49bf9d;
+	background-color: #49bf9d;
+	color: white !important;
+}

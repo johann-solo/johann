@@ -41,7 +41,7 @@ paginate = 10
 	[params.intro]
 	hide = false
 	title = "A Feast For The Eyes"
-	content = "Photography can say so much. It captures a momement in time, a feeling or can stir emotions. The challenge for a photographer is to capture those things, or in some cases surpass the reality. This is my goal.<br><br> <a class='om_btn' href='#contact-form'>Hire Me</a>"
+	content = "Photography can say so much. It captures a momement in time, a feeling or can stir emotions. The challenge for a photographer is to capture those things, or in some cases surpass the reality. This is my goal.<br><br> <a class='cta_btn' href='#contact-form'>Hire Me</a>"
 
 
 	[params.about]
