@@ -5,3 +5,6 @@ author: Johann
 categories: [""]
 tags: [""]
 ---
+
+</br>
+![](/images/uploads/{{ replace .TranslationBaseName "-" "_" }}_1.jpg)
