@@ -59,49 +59,85 @@ paginate = 10
 		[[params.portfolio.gallery]]
 			image = "fulls/01.jpg"
 			thumb = "thumbs/01.jpg"
-			title = "Butternut Squash Kale Salad"
+			title = "Apple Tart"
 			description = "Close ups to bring out the details"
 
 		[[params.portfolio.gallery]]
 			image = "fulls/02.jpg"
 			thumb = "thumbs/02.jpg"
-			title = "Maple Pecan Cinnamon Rolls"
+			title = "Crispy Skin Pork"
 			description = "Light and airy"
 
 		[[params.portfolio.gallery]]
 			image = "fulls/03.jpg"
 			thumb = "thumbs/03.jpg"
-			title = "Homemade Irish Cream"
-			description = "Dynamic movement"
+			title = "Penne Alla Vodka"
+			description = "Light and airy"
 
 		[[params.portfolio.gallery]]
 			image = "fulls/04.jpg"
 			thumb = "thumbs/04.jpg"
-			title = "Charcuterie Board"
+			title = "Greek Potato Salad"
 			description = "Lorem ipsum dolor sit amet."
 
 		[[params.portfolio.gallery]]
 			image = "fulls/05.jpg"
 			thumb = "thumbs/05.jpg"
-			title = "Chocolate Hazelnut Tart"
+			title = "Brown Butter Nutella Bread"
 			description = "Lorem ipsum dolor sit amet."
 
 		[[params.portfolio.gallery]]
 			image = "fulls/06.jpg"
 			thumb = "thumbs/06.jpg"
-			title = "Salted Honey Pie"
+			title = "Apple Butter Spice Cake"
 			description = "Lorem ipsum dolor sit amet."
 
 		[[params.portfolio.gallery]]
 			image = "fulls/07.jpg"
 			thumb = "thumbs/07.jpg"
-			title = "Pear Frangipani Tart"
+			title = "Butternut Squash Kale Salad"
 			description = "Lorem ipsum dolor sit amet."
 
 		[[params.portfolio.gallery]]
 			image = "fulls/08.jpg"
 			thumb = "thumbs/08.jpg"
-			title = "Apple Butter Spice Cake"
+			title = "Maple Pecan Cinnamon Rolls"
+			description = "Lorem ipsum dolor sit amet."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/09.jpg"
+			thumb = "thumbs/09.jpg"
+			title = "Homemade Irish Cream"
+			description = "Lorem ipsum dolor sit amet."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/10.jpg"
+			thumb = "thumbs/10.jpg"
+			title = "Charcuterie Board"
+			description = "Lorem ipsum dolor sit amet."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/11.jpg"
+			thumb = "thumbs/11.jpg"
+			title = "Chocolate Hazelnut Tart"
+			description = "Lorem ipsum dolor sit amet."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/12.jpg"
+			thumb = "thumbs/12.jpg"
+			title = "Salty Honey Pie"
+			description = "Lorem ipsum dolor sit amet."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/13.jpg"
+			thumb = "thumbs/13.jpg"
+			title = "Pear Frangipani Tart"
+			description = "Lorem ipsum dolor sit amet."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/14.jpg"
+			thumb = "thumbs/14.jpg"
+			title = "Blueberry Nice cream"
 			description = "Lorem ipsum dolor sit amet."
 
 	[params.recentposts]
