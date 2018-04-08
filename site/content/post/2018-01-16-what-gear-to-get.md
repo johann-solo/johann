@@ -1,7 +1,7 @@
 +++
 banner = "banners/placeholder.png"
 categories = ["guides"]
-date = "2018-01-16T00:00:00Z"
+date = 2018-01-16
 tags = ["gear"]
 title = "What camera should I get to start?"
 

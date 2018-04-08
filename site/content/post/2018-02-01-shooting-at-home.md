@@ -1,6 +1,6 @@
 ---
 title: The challenges of shooting at home
-date: 2018-01-31 00:00:00 +0000
+date: 2018-01-31 
 author: Johann
 categories:
 - blog
