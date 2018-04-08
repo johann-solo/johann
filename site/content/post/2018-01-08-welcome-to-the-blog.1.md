@@ -1,6 +1,6 @@
 +++
 banner = "banners/placeholder.png"
-categories = []
+categories = ["updates"]
 date = "2018-01-08T00:00:00Z"
 tags = ["blog"]
 title = "Welcome to the blog"
