@@ -1,12 +1,11 @@
 +++
 banner = "banners/placeholder.png"
 categories = ["guides"]
-date = "2018-01-16"
-menu = ""
+date = "2018-01-16T00:00:00Z"
 tags = ["gear"]
 title = "What camera should I get to start?"
-+++
 
++++
 This is such a cliché question. But there is a reason for that. People are always jumping into the field and there is a level of trepidation attached. Not to mention the potential expense as this is not always the cheapest hobby/profession to enter. What brand to chose? What lens to choose? Do I need to learn to use Photoshop? Tripods? Lots of questions. Thankfully I there is a lot out free info out there, especially via YouTube. Here are my two cents.
 
 If you aren't sure of what you are going to be shooting, or whether or not this is going to be a serious (or not so serious) hobby or even your new career, it probably means you don't want to invest too heavily. You probably just want to dip your toes in to see first. I'm a Canon shooter but at this stage most pro or semi-pro brands will give you roughly the same results – each with its own strengths and weakness. What you want to do at this stage is to gather experience, learn composition, editing and find your own style. These all take time.

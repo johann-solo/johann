@@ -1,11 +1,13 @@
 ---
 title: The challenges of shooting at home
-date: 2018-01-31
+date: 2018-01-31 00:00:00 +0000
 author: Johann
-categories: ["blog"]
-tags: ["lifestyle"]
----
+categories:
+- blog
+tags:
+- lifestyle
 
+---
 Many people just love working from home. There seem to be so many advantages – no commute time, control over your work environment, no one takes your food in the fridge and the ability to work in your pyjamas. Of course, there are some draw backs  such as a blurring of work life and home life. However, using your home as a photography studio also brings some unique challenges – complete chaos.  
 
 > The downside it that everything must be completely rearranged

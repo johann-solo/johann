@@ -1,197 +1,125 @@
 baseurl = "/"
-languageCode = "en-us"
-title = "Johann Headley Photography"
-theme = "photo"
 disqusShortname = "johannheadley-com"
-# Enable Google Analytics by inserting your tracking code
 googleAnalytics = "UA-44681567-1"
-# Define how many posts should appear on a site
+languageCode = "en-us"
 paginate = 10
-
+theme = "photo"
+title = "Johann Headley Photography"
+[[menu.main]]
+name = "Blog"
+url = "post/"
+weight = -110
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = -120
 [params]
-	# To provide some metadata for search engines feel free to add a few
-    # information about you and your website.
-	name = "Johann Headley"
-	description = "Photographer who specialises in food photography. Based in Toronto, Canada"
-
-	# Format dates with Go's time formatting
-	date_format = "2006-01-02"
-
-	# Add read time estimates in the format "X min read"
-	show_read_time = true
-
-	# Add custom assets with their paths relative to the static folder
-	custom_js   = []
-	custom_css  = []
-
-
-	[params.sidebar]
-		# Replace the avatar with a picture of your own under static/images
-		avatar = "avatar.jpg"
-		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "Hello, I'm ***JOHANN HEADLEY***. I'm a **photographer** who specialises in food photography. Let's work together!"
-		# The icons will be shown if you enter your username
-		twitter = "johannheadley"
-		instagram = "__om__photography"
-
-		copyright = [
-			"Johann Headley"
-		]
-
-	[params.intro]
-	hide = false
-	title = "A Feast For The Eyes"
-	content = "Photography can say so much. It captures a momement in time, a feeling or can stir emotions. The challenge for a photographer is to capture those things, or in some cases surpass the reality. This is my goal.<br><br> <a class='cta_btn' href='#contact-form'>Hire Me</a>"
-
-
-	[params.about]
-		hide  = false
-		title = "The accidental photographer"
-		content = "My foray in the digital world intially started with web development. I always loved the visual medium – especially photography but never considered that as a career to channel my passions. After working on my wife's blog, <a href='https://www.oliveandmango.com/'>Olive & Mango</a> I really got an opportunity to dive right in. Over the years I have been able to push myself to the limits as I tackled new obstacles, coming out stronger every time. It's not often you get to do the thing you love and in this respect I'm living a dream."
-
-
-	[params.portfolio]
-		hide  = false
-		title = "Recent Work"
-
-		# The images and thumbnails are stored under static/images
-		# Create and change subfolders as you like
-		[[params.portfolio.gallery]]
-			image = "fulls/01.jpg"
-			thumb = "thumbs/01.jpg"
-			title = "Apple Tart"
-			description = "Close ups to bring out the details"
-
-		[[params.portfolio.gallery]]
-			image = "fulls/02.jpg"
-			thumb = "thumbs/02.jpg"
-			title = "Crispy Skin Pork"
-			description = "Light and airy"
-
-		[[params.portfolio.gallery]]
-			image = "fulls/03.jpg"
-			thumb = "thumbs/03.jpg"
-			title = "Penne Alla Vodka"
-			description = "Light and airy"
-
-		[[params.portfolio.gallery]]
-			image = "fulls/04.jpg"
-			thumb = "thumbs/04.jpg"
-			title = "Greek Potato Salad"
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/05.jpg"
-			thumb = "thumbs/05.jpg"
-			title = "Brown Butter Nutella Bread"
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/06.jpg"
-			thumb = "thumbs/06.jpg"
-			title = "Apple Butter Spice Cake"
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/07.jpg"
-			thumb = "thumbs/07.jpg"
-			title = "Butternut Squash Kale Salad"
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/08.jpg"
-			thumb = "thumbs/08.jpg"
-			title = "Maple Pecan Cinnamon Rolls"
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/09.jpg"
-			thumb = "thumbs/09.jpg"
-			title = "Homemade Irish Cream"
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/10.jpg"
-			thumb = "thumbs/10.jpg"
-			title = "Charcuterie Board"
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/11.jpg"
-			thumb = "thumbs/11.jpg"
-			title = "Chocolate Hazelnut Tart"
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/12.jpg"
-			thumb = "thumbs/12.jpg"
-			title = "Salty Honey Pie"
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/13.jpg"
-			thumb = "thumbs/13.jpg"
-			title = "Pear Frangipani Tart"
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/14.jpg"
-			thumb = "thumbs/14.jpg"
-			title = "Blueberry Nice cream"
-			description = "Lorem ipsum dolor sit amet."
-
-	[params.recentposts]
-		hide  = false
-		title = "Recent blog posts"
-
-	[params.contact]
-		hide  = false
-		title = "Let's work together!"
-		content = "Use any of the methods below and I'll get back to you as soon as I can"
-
-		# This can be exact coordinates or a searchable address in google maps
-		gmaps_address = "43.693505,-79.308399"
-		address = [
-			"25 Crewe Ave",
-			"Toronto, ON M4C2H9",
-			"Canada"
-		]
-		phone = "‭647-692-7338"
-
-		# Since this template is static, the contact form uses www.formspree.io as a
-		# proxy. The form makes a POST request to their servers to send the actual
-		# email. Visitors can send up to a 1000 emails each month for free.
-	    #
-	    # What you need to do for the setup?
-	    #
-	    # - set your email address under 'email' below
-	    # - upload the generated site to your server
-	    # - send a dummy email yourself to confirm your account
-	    # - click the confirm link in the email from www.formspree.io
-	    # - you're done. Happy mailing!
-		email = "johannd@icloud.com"
-
-		[params.contact.form]
-			# Set custom strings for the form if your native
-			# language isn't English
-			name = "Name"
-			email = "Email"
-			message = "Message"
-			submit = "Send message"
-
-
-# Menu links that appear on the left sidebar
-[[menu.main]]
-	name = "Home"
-	url  = "/"
-	weight = -120
-
-[[menu.main]]
-	name = "Blog"
-	url  = "post/"
-	weight = -110
-
-# [[menu.main]]
-# 	name = "About"
-# 	url  = "https://subdomain.example.com"
-# 	weight = -100
+custom_css = []
+custom_js = []
+date_format = "2006-01-02T00:00:00+00:00"
+description = "Photographer who specialises in food photography. Based in Toronto, Canada"
+name = "Johann Headley"
+show_read_time = true
+[params.about]
+content = "My foray in the digital world intially started with web development. I always loved the visual medium – especially photography but never considered that as a career to channel my passions. After working on my wife's blog, <a href='https://www.oliveandmango.com/'>Olive & Mango</a> I really got an opportunity to dive right in. Over the years I have been able to push myself to the limits as I tackled new obstacles, coming out stronger every time. It's not often you get to do the thing you love and in this respect I'm living a dream."
+hide = false
+title = "The accidental photographer"
+[params.contact]
+address = ["25 Crewe Ave", "Toronto, ON M4C2H9", "Canada"]
+content = "Use any of the methods below and I'll get back to you as soon as I can"
+email = "johannd@icloud.com"
+gmaps_address = "43.693505,-79.308399"
+hide = false
+phone = "‭647-692-7338"
+title = "Let's work together!"
+[params.contact.form]
+email = "Email"
+message = "Message"
+name = "Name"
+submit = "Send message"
+[params.intro]
+content = "Photography can say so much. It captures a momement in time, a feeling or can stir emotions. The challenge for a photographer is to capture those things, or in some cases surpass the reality. This is my goal.<br><br> <a class='cta_btn' href='#contact-form'>Hire Me</a>"
+hide = false
+title = "A Feast For The Eyes"
+[params.portfolio]
+hide = false
+title = "Recent Work"
+[[params.portfolio.gallery]]
+description = "Close ups to bring out the details"
+image = "fulls/01.jpg"
+thumb = "thumbs/01.jpg"
+title = "Apple Tart"
+[[params.portfolio.gallery]]
+description = "Light and airy"
+image = "fulls/02.jpg"
+thumb = "thumbs/02.jpg"
+title = "Crispy Skin Pork"
+[[params.portfolio.gallery]]
+description = "Light and airy"
+image = "fulls/03.jpg"
+thumb = "thumbs/03.jpg"
+title = "Penne Alla Vodka"
+[[params.portfolio.gallery]]
+description = "Lorem ipsum dolor sit amet."
+image = "fulls/04.jpg"
+thumb = "thumbs/04.jpg"
+title = "Greek Potato Salad"
+[[params.portfolio.gallery]]
+description = "Lorem ipsum dolor sit amet."
+image = "fulls/05.jpg"
+thumb = "thumbs/05.jpg"
+title = "Brown Butter Nutella Bread"
+[[params.portfolio.gallery]]
+description = "Lorem ipsum dolor sit amet."
+image = "fulls/06.jpg"
+thumb = "thumbs/06.jpg"
+title = "Apple Butter Spice Cake"
+[[params.portfolio.gallery]]
+description = "Lorem ipsum dolor sit amet."
+image = "fulls/07.jpg"
+thumb = "thumbs/07.jpg"
+title = "Butternut Squash Kale Salad"
+[[params.portfolio.gallery]]
+description = "Lorem ipsum dolor sit amet."
+image = "fulls/08.jpg"
+thumb = "thumbs/08.jpg"
+title = "Maple Pecan Cinnamon Rolls"
+[[params.portfolio.gallery]]
+description = "Lorem ipsum dolor sit amet."
+image = "fulls/09.jpg"
+thumb = "thumbs/09.jpg"
+title = "Homemade Irish Cream"
+[[params.portfolio.gallery]]
+description = "Lorem ipsum dolor sit amet."
+image = "fulls/10.jpg"
+thumb = "thumbs/10.jpg"
+title = "Charcuterie Board"
+[[params.portfolio.gallery]]
+description = "Lorem ipsum dolor sit amet."
+image = "fulls/11.jpg"
+thumb = "thumbs/11.jpg"
+title = "Chocolate Hazelnut Tart"
+[[params.portfolio.gallery]]
+description = "Lorem ipsum dolor sit amet."
+image = "fulls/12.jpg"
+thumb = "thumbs/12.jpg"
+title = "Salty Honey Pie"
+[[params.portfolio.gallery]]
+description = "Lorem ipsum dolor sit amet."
+image = "fulls/13.jpg"
+thumb = "thumbs/13.jpg"
+title = "Pear Frangipani Tart"
+[[params.portfolio.gallery]]
+description = "Lorem ipsum dolor sit amet."
+image = "fulls/14.jpg"
+thumb = "thumbs/14.jpg"
+title = "Blueberry Nice cream"
+[params.recentposts]
+hide = false
+title = "Recent blog posts"
+[params.sidebar]
+avatar = "avatar.jpg"
+bio = "Hello, I'm ***JOHANN HEADLEY***. I'm a **photographer** who specialises in food photography. Let's work together!"
+copyright = ["Johann Headley"]
+instagram = "__om__photography"
+twitter = "johannheadley"

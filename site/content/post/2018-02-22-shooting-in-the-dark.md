@@ -1,11 +1,13 @@
 ---
 title: Shooting in the Dark
-date: 2018-02-22T09:40:26-04:00
+date: 2018-02-22 09:40:26 -0400
 author: Johann
-categories: ["Photography"]
-tags: ["tutorials"]
----
+categories:
+- Photography
+tags:
+- tutorials
 
+---
 Lately we have been shooting a lot of dark images on the blog. By dark I mean the overall look is moody and shadowy. This is an important distinction to make. Where as the aesthetic is dark, the image itself shouldn't be muddy or noisy. Take the next image for an example  
 
 ![Poorly lit subjects](/images/uploads/2018_02_22_shooting_in_the_dark_1.jpg) 
