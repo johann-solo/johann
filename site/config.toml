@@ -16,7 +16,7 @@ weight = -120
 [params]
 custom_css = []
 custom_js = []
-date_format = "2006-01-02T00:00:00+00:00"
+date_format = "Monday, Jan 2, 2006"
 description = "Photographer who specialises in food photography. Based in Toronto, Canada"
 name = "Johann Headley"
 show_read_time = true

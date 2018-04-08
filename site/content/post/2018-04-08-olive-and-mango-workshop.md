@@ -1,8 +1,8 @@
 +++
 author = "Johann"
-categories = [""]
+categories = ["updates"]
 date = "2018-04-08"
-tags = [""]
+tags = ["workshops"]
 title = "Olive & Mango Workshop"
 
 +++
