@@ -1,6 +1,6 @@
 ---
 title: Shooting in the Dark
-date: 2018-02-22 
+date: 2018-02-22 00:00:00 +0000
 author: Johann
 categories:
 - Photography
