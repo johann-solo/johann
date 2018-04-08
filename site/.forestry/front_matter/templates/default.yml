@@ -1,4 +1,6 @@
 ---
+pages:
+- post/olive-and-mango-workshop.md
 hide_body: false
 fields:
 - name: title
