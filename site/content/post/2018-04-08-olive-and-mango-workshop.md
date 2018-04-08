@@ -1,7 +1,7 @@
 +++
 author = "Johann"
 categories = ["updates"]
-date = "2018-04-08"
+date = "2018-04-08T00:00:00Z"
 tags = ["workshops"]
 title = "Olive & Mango Workshop"
 
