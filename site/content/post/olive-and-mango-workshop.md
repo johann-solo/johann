@@ -2,11 +2,12 @@
 author = "Johann"
 categories = [""]
 date = "2018-04-08T08:30:03+00:00"
-draft = true
 tags = [""]
 title = "Olive & Mango Workshop"
 
 +++
+# The First Olive & Mango Workshop
 
-</br>
-![](/images/uploads/{{ replace .TranslationBaseName "-" "_" }}_1.jpg)
+This is just a quick update regarding our first photography workshop in Trinidad. We are very excited. See all the details at [http://oliveandmango.com/workshops/](http://oliveandmango.com/workshops/ "http://oliveandmango.com/workshops/")
+
+Will be providing more details on our preparation and experience later. Stay tuned!
