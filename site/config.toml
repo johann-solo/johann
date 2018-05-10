@@ -46,6 +46,11 @@ hide = false
 title = "Recent Work"
 [[params.portfolio.gallery]]
 description = "Close ups to bring out the details"
+image = "fulls/15.jpg"
+thumb = "thumbs/15.jpg"
+title = "Ginger Shrimp And Soba"
+[[params.portfolio.gallery]]
+description = "Close ups to bring out the details"
 image = "fulls/01.jpg"
 thumb = "thumbs/01.jpg"
 title = "Apple Tart"
